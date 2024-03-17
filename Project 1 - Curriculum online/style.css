@@ -1,0 +1,224 @@
+body {
+background-color: #909090;
+}
+
+main {
+    background-image: url("../programming.jpg");
+    padding-top: 10px;
+}
+
+.all {
+  font-family: Trebuchet MS, sans-serif;
+}
+
+.general {
+    background-color: #909090;
+    border-radius: 10px;
+    width: 80%;
+    margin: 25px auto;
+}
+
+.presentation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    column-gap: 20px;
+    padding: 10px;
+}
+
+.javier-img {
+    grid-row: span 2;
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.description {
+    display: flex;
+    text-align: justify;
+    padding-right: 30px;
+    font-size: 20px;
+
+}
+
+.formacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
+    gap:10px;
+    padding: 10px 30px 30px 30px;
+}
+
+.formacion-academica {
+    grid-column: span 3;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.superior {
+    background-color: #C8C8C8;
+    grid-column: span 2;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.escolar {
+background-color: #C8C8C8;
+padding-left: 10px;
+padding-top: 10px;
+border-radius: 10px;
+}
+
+.educacion {
+    background-color: #C8C8C8; 
+    padding: 10px 0px 0px 10px;
+    border-radius: 10px;
+}
+
+.post-pract {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 85%;
+    margin: 25px auto;
+}
+
+.postitulos {
+    padding: 10px 30px;
+}
+
+h2 {
+    padding: 10px 0px 10px 10px;
+}
+
+.diplomado {
+    background-color: #D3D3D3; 
+    padding: 50px 0px 50px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.practicas {
+    padding: 10px 30px;
+}
+
+.practicas-profesionales {
+    background-color: #C8C8C8; 
+    padding: 10px 0px 1px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+.extra-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.list-elem {
+    background-color: #C8C8C8;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.voluntariado {
+    padding: 10px;
+}
+
+.fund {
+    background-color: #D3D3D3;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.comp {
+    padding: 10px;
+}
+
+.habilidades {
+    padding-bottom: 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.hab {
+    list-style: none;
+    padding-left: 10px;
+    background-color: #C8C8C8;
+    border-radius: 10px;
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.one {
+    background-color: #483D8B;
+    color: whitesmoke;
+}
+.two {
+    background-color: #4B0082;
+    color: whitesmoke;
+}
+.three {
+    background-color: #000080;
+    color: whitesmoke;
+}
+
+@media (min-width: 681px) and (max-width: 1500px) {
+    .description {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 680px) {
+    .presentation {
+        display: block;
+        padding-left: 30px;
+    }
+    .description {
+        font-size: 18px;
+    }
+    .post-pract {
+        display: block;
+    }
+}
+@media (max-width: 550px) {
+    .presentation {
+        display: block;
+        padding-left: 30px;
+    }
+    .description {
+        font-size: 16px;
+    }
+    .post-pract {
+        display: block;
+    }
+    .extra {
+        padding: 10px;
+    }
+    .extra-list {
+        display: block;
+    }
+    .habilidades {
+        padding-bottom: 1px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+    }
+}
+
+
